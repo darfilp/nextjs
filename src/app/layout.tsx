@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
-import { Header } from "@/components/Header";
+import { Header } from "@/app/_libs/components/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,7 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Главная страница",
+  title: {
+    template: "%s | Изучение Next JS",
+    absolute: "Изучение Next JS",
+  },
 };
 
 export default function RootLayout({

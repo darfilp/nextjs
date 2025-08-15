@@ -14,4 +14,10 @@
 .link {
   list-style: none;
   color: pink;
+  text-decoration: none;
+}
+
+.link-active {
+  color: blueviolet;
+  text-decoration: underline;
 }
