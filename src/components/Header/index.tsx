@@ -12,6 +12,7 @@ export const Header = () => {
   const links = [
     { text: "Главная страница", href: "/" },
     { text: "Статьи", href: "/posts" },
+    { text: "Документация", href: "/docs?lang=en" },
   ];
 
   return (

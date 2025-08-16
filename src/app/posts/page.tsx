@@ -1,6 +1,6 @@
 import { Post as PostType } from "@/types/post";
 import s from "./Post.module.css";
-import { Post } from "@/app/_libs/components/Post";
+import { Post } from "@/components/Post";
 import { fetchData } from "@/lib/api/ fetchData";
 
 export const metadata = {
